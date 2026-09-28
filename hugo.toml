@@ -1,5 +1,5 @@
 baseURL = "https://vandesteeg.dev"
-languageCode = "en-us"
+locale = "en-us"
 title = "vandesteeg.dev"
 theme = "terminal"
 paginate = 5
@@ -15,7 +15,7 @@ paginate = 5
 
 [languages]
   [languages.en]
-    languageName = "English"
+    label = "English"
     title = "vandesteeg.dev"
     subtitle = "homelab, infra & other nerdery"
     owner = "Niels"
