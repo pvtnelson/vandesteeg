@@ -1,0 +1,42 @@
+baseURL = "https://vandesteeg.dev"
+languageCode = "en-us"
+title = "vandesteeg.dev"
+theme = "terminal"
+paginate = 5
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "green"
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = false
+  autoCover = true
+  showLastUpdated = false
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "vandesteeg.dev"
+    subtitle = "homelab, infra & other nerdery"
+    owner = "Niels"
+    keywords = ""
+    copyright = ""
+    menuMore = "show more"
+    readMore = "read more"
+    readOtherPosts = "read other posts"
+    newerPosts = "newer posts"
+    olderPosts = "older posts"
+    missingContentMessage = "page not found."
+    missingBackButtonLabel = "back to homepage"
+    minuteReadingTime = "min read"
+    words = "words"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "about"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "posts"
+        url = "/posts"
